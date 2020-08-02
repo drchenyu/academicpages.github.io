@@ -8,8 +8,28 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I am a Research Associate currently in the School of Engineering at Newcastle University. I major in the research of monitoring and interpreting geo-hazards such as earthquakes, volcanoes, landslides, and ground subsidence using a variety of Earth Observations (EO). My main objective is to develop a geo-hazard Early Warning System (EWS) with the capacity of early-stage hazard detection and pre-warning, risk assessment of the hazard affected area and rapid responding to catastrophic events.   
 
+Research interests 
+======
+- Remote Sensing
+  - Interferometric Synthetic Aperture Radar (InSAR)
+  - InSAR atmospheric correction
+  - InSAR Ocean Tide Loading (OTL) correction
+  - InSAR time series anlalysis
+  - Optical images
+  - MODIS NIR
+- Geodesy
+  - Global Navigation Satellite System (GNSS)
+  - Precise Point Positioning (PPP)
+  - Network Real Time Kinematic (RTK)
+- Others
+  - Numerical Weather Model (NWM) water vapour (ERA-Interim, HRES-ECMWF, ERA5)
+- Application
+  - High resolution (near) real time water vapour field 
+  - Earthquake modelling (co-seismic, afterslip, inter-seismic)
+  - Landslide detection 
+  - Ground subsidence (ground water; mining; tectonic)
 
 A data-driven personal website
 ======
