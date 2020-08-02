@@ -3,8 +3,8 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Software"
-    url: /software/    
+# - title: "Software"
+#    url: /software/    
 
 #  - title: "Teaching"
 #    url: /teaching/    
@@ -12,8 +12,8 @@ main:
 #  - title: "Portfolio"
 #    url: /portfolio/
         
-#  - title: "Blog Posts"
-#    url: /year-archive/
+  - title: "Software"
+    url: /year-archive/
     
 #  - title: "CV"
 #    url: /cv/
