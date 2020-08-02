@@ -20,8 +20,8 @@
           animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
           animation-delay: 0.45s;
-  background-color: $black;
-  border-top: 1px solid $black;
+  background-color: #000000;
+  border-top: 1px solid #000000;
 
   footer {
     @include clearfix;
