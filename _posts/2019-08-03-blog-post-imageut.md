@@ -1,6 +1,6 @@
 ---
 title: 'A collection of binary image editing programs'
-date: 2020-08-04
+date: 2019-08-03
 permalink: /posts/2020/08/imageut/
 tags:
   - C++
