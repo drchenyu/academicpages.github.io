@@ -86,12 +86,12 @@ author:
   name             : "Chen Yu"
   avatar           : "selfportrait.jpg"
   bio              : "Newcastle University"
-  location         : "Newcastle Upon Tyne"
+  location         : "Newcastle Upon Tyne, UK"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.com/citations?user=iDQxxd4AAAAJ&hl=zh-CN"
   email            : "chen.yu@newcastle.ac.uk"
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : "https://www.researchgate.net/profile/Chen_Yu58"
   uri              :
   bitbucket        :
   codepen          :
@@ -118,6 +118,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
+  publons          : "https://publons.com/researcher/3804715/chen-yu/"
 
 
 # Reading Files
