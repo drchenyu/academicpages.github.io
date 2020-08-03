@@ -9,7 +9,7 @@ Written with C++.
 
 Latest version
 ======
-2020-08-02: [Linux binary_release](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EX_Ee085wh1OhcuI-OgxND4BPe5m6autzpK25-ThtWE2eA?e=2fUwGZ)
+2020-08-02: [Linux binary_release_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EX_Ee085wh1OhcuI-OgxND4BPe5m6autzpK25-ThtWE2eA?e=2fUwGZ)
 
 
 Usages
