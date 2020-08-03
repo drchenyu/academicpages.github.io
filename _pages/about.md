@@ -3,7 +3,7 @@ header:
   overlay_color: "#333"
 permalink: /
 title: "Greetings from Chen!"
-excerpt: "Imaging geodesy"
+excerpt: "A knowledge sharing hub"
 author_profile: true
 redirect_from: 
   - /about/
