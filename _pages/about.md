@@ -1,6 +1,6 @@
 ---
 header:
-  overlay_image: "/images/banner.jpg"
+  overlay_color: "#333"
 permalink: /
 title: "Greetings from Chen!"
 excerpt: "Imaging geodesy"
