@@ -1,4 +1,6 @@
 ---
+header:
+  overlay_image: /images/banner.jpg
 permalink: /
 title: "About me"
 excerpt: "About me"
