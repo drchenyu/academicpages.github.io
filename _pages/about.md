@@ -4,7 +4,7 @@ header:
   overlay_image: banner.jpg
 permalink: /
 title: "Greetings from Chen!"
-excerpt: "A knowledge sharing hub"
+excerpt: "A personal knowledge sharing hub"
 author_profile: true
 redirect_from: 
   - /about/
