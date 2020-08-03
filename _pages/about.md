@@ -1,6 +1,6 @@
 ---
 header:
-  overlay_color: "#333"
+  overlay_color: "#162B55"
 permalink: /
 title: "Greetings from Chen!"
 excerpt: "A personal knowledge sharing hub"
