@@ -1,9 +1,9 @@
 ---
 header:
-  overlay_image: /images/banner.jpg
+  overlay_image: "/images/banner.jpg"
 permalink: /
-title: "About me"
-excerpt: "About me"
+title: "Greetings from Chen!"
+excerpt: "Imaging geodesy"
 author_profile: true
 redirect_from: 
   - /about/
