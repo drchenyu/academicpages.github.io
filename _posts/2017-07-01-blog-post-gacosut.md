@@ -14,8 +14,9 @@ Latest version
 ======
 2017-07-01:  
 [applygacos.py download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EU_nexmrdOZCpIjY5ZOh3okBSGiYj79QXr1BhtLjjhMY3w?e=xXKjqx)   
-If you need to downsample or oversample your interferograms or the GACOS atmopsheric corrention, please use: 
-https://chenyublog.netlify.app/posts/2020/08/imageut/  
+  
+If you need to downsample or oversample your interferograms or the GACOS atmopsheric corrention, please use:    
+[A collection of binary image editing programs](https://chenyublog.netlify.app/posts/2020/08/imageut/)
   
 
 Usages
