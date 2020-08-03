@@ -4,6 +4,9 @@ date: 2017-06-15
 permalink: /posts/2017/06/gacos/
 ---
 
+Welcome to our Generic Atmospheric Correction Online Service for InSAR (GACOS).  
+
+
 Access
 =====
 Access via link [GACOS](http://ceg-research.ncl.ac.uk/v2/gacos/)
@@ -14,7 +17,8 @@ Access via link [GACOS](http://ceg-research.ncl.ac.uk/v2/gacos/)
 
 Description
 ======
-Welcome to our Generic Atmospheric Correction Online Service for InSAR (GACOS).
+  
+![image](https://github.com/drchenyu/academicpages.github.io/blob/master/images/GACOS.jpg)
 
 GACOS utilises the Iterative Tropospheric Decomposition (ITD) model (Yu et al., 2017) to separate stratified and turbulent signals from tropospheric total delays, and generate high spatial resolution zenith total delay maps to be used for correcting InSAR measurements and other applications. GACOS has the following key features: (i) globally available; (ii) operational in a near real time mode; (iii) easy to implement; and (iv) users to be informed how the model performs and whether the correction is recommended.
 
