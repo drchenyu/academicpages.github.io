@@ -119,10 +119,8 @@
 
   $social:
   (facebook, $facebook-color),
-  (twitter, $facebook-color),
+  (twitter, $twitter-color),
   (google-plus, $google-plus-color),
-  (orcid, #FF1493),
-  (google-scholar, #FF1493),
   (linkedin, $linkedin-color);
 
   @each $socialnetwork, $color in $social {
