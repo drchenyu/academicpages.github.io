@@ -8,6 +8,10 @@ Access
 =====
 Access via link [GACOS](http://ceg-research.ncl.ac.uk/v2/gacos/)
 
+
+
+
+
 Description
 ======
 Welcome to our Generic Atmospheric Correction Online Service for InSAR (GACOS).
@@ -35,6 +39,4 @@ GACOS is supported by the UK NERC through the Centre for the Observation and Mod
 
 Update logs
 ======
-2020-08-02: add logarithmic temporal constraint (a+b*log(t-t0))  
-  
-2020-07-01: published  
+2017-06-15: published  
