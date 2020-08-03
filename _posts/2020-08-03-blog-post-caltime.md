@@ -6,7 +6,7 @@ tags:
   - C++
 ---
 
-Time convertion ultility, convert input time system to all kinds of times. Only valid between 1 March 1900 and 28 February 2100.
+Time convertion ultility, convert input time system to all kinds of times. Valid between 1 March 1900 and 28 February 2100.
 
 Latest version
 ======
