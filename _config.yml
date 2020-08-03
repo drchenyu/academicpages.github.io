@@ -9,7 +9,7 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "Chen Yu Home"
-logo                     : "chenyu.png"
+logo                     : "/images/chenyu.png"
 title_separator          : "-"
 name                     : &name "Chen Yu"
 description              : &description "Yu C."
