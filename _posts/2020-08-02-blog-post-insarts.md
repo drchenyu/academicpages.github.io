@@ -8,14 +8,19 @@ This is a InSAR time series analysis tool based on SBAS, including phase closure
 
 Latest version
 ======
-[Linux binary](https://newcastle-my.sharepoint.com/:u:/r/personal/nyc40_newcastle_ac_uk/Documents/software/InSARTimeSeries.zip?csf=1&web=1&e=bdmXWF)
+2020-08-02: [Linux binary_release](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EX_Ee085wh1OhcuI-OgxND4BPe5m6autzpK25-ThtWE2eA?e=2fUwGZ)
 
 
 Usages
 ======
+On Linux, simply run:
+./insarts cfg
+On windows, run it in cmd:
+./insarts cfg 
 
 
 Update logs
 ======
 2020-08-02: add logarithmic temporal constraint (a+b*log(t-t0))  
+  
 2020-07-01: published  
