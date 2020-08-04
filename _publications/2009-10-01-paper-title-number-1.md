@@ -1,15 +1,14 @@
 ---
-title: "Paper Title Number 1"
+title: "Ocean Tide Loading Effects on InSAR Observations Over Wide Regions"
 collection: publications
 permalink: /publication/2009-10-01-paper-title-number-1
-excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
-date: 2009-10-01
-venue: 'Journal 1'
-paperurl: 'http://academicpages.github.io/files/paper1.pdf'
-citation: 'Your Name, You. (2009). &quot;Paper Title Number 1.&quot; <i>Journal 1</i>. 1(1).'
----
-This paper is about the number 1. The number 2 is left for future work.
+excerpt: 'Geophysical Research Letters'
+date: 2020-08-16
+venue: 'Geophysical Research Letters'
+--- 
 
-[Download paper here](http://academicpages.github.io/files/paper1.pdf)
+Abstract
+======
+Recent and future Interferometric Synthetic Aperture Radar (InSAR) missions provide spatially wide and temporally continuous observations capturing relative ground motions over great distances which enable nationwide or continent‐wide deformation mapping. To achieve this, long wavelength errors, which increase with distance and are coupled with geophysical deformation, must be corrected. We predict the ocean tide loading (OTL) effect on Sentinel‐1 interferograms globally for all ascending and descending acquisitions, and they are largest in coastal regions. Then, interferograms over southwest Britain are investigated, with the OTL correction having a similar noise reduction effect as when correcting for tropospheric delay (27% standard deviation reduction for tropospheric delay and 46% for combined tropospheric delay and OTL). OTL corrections contribute considerably to the noise reduction of the InSAR time series, with the time series standard deviation reducing by 33% after correcting tropospheric errors and 52% after also applying OTL corrections.
 
-Recommended citation: Your Name, You. (2009). "Paper Title Number 1." <i>Journal 1</i>. 1(1).
+ https://doi.org/10.1029/2020GL088184
