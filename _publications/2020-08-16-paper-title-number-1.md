@@ -1,12 +1,10 @@
 ---
-title: "Ocean Tide Loading Effects on InSAR Observations Over Wide Regions"
+title: "Paper-Title-Number-1"
 collection: publications
 permalink: /publication/2020-08-16-paper-title-number-1
-excerpt: 'Geophysical Research Letters'
+excerpt: 
 date: 2020-08-16
 venue: 'Geophysical Research Letters'
-paperurl: ''
-citation: 'Yu, C., Penna, N. T., & Li, Z. Ocean Tide Loading Effects on InSAR Observations Over Wide Regions. Geophysical Research Letters, e2020GL088184.'
 ---
 
 Abstract
