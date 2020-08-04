@@ -2,6 +2,7 @@
 title: 'Time convention program (GPST, JD, J2000, DOY)'
 date: 2020-08-03
 permalink: /posts/2020/08/caltime/
+comments: true
 tags:
   - C++
 ---
