@@ -78,7 +78,7 @@ Parameters explained
 
 Update logs
 ======
-2020-08-06：read reference points from a windowed area. 
+2020-08-06: read reference points from a windowed area. 
 
 2020-08-02: add logarithmic temporal constraint (a+b*log(t-t0))  
   
