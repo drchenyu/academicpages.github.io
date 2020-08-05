@@ -12,7 +12,7 @@ Written with C++.
 
 Latest version
 ======
-2020-08-02: [Linux binary_release_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EX_Ee085wh1OhcuI-OgxND4BPe5m6autzpK25-ThtWE2eA?e=2fUwGZ)
+2020-08-06: [Linux binary_release_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EY1hfFpmeohHinA6VIjw32kBpBROL3dFsidbJYecxm4YTw?e=3Rx0Ce)
 
 
 Usages
@@ -78,6 +78,8 @@ Parameters explained
 
 Update logs
 ======
+2020-08-06：read reference points from a windowed area. 
+
 2020-08-02: add logarithmic temporal constraint (a+b*log(t-t0))  
   
 2020-07-01: published  
