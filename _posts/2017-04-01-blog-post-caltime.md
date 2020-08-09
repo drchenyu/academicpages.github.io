@@ -30,10 +30,10 @@ Formated Output, same for all usages
 
 Examples usages:  
   
-  From month day to doy  -> "caltime date 2012 12 20 | awk '{print $7}'  "
-  From doy to gps week   -> "caltime date 2012 231   | awk '{print $9,$10}'  "
-  Read input from stdin  -> "awk '{print $1,$2,$3}' filename | caltime date  "
-  Read input from stdin  -> "cat filename | caltime j2000 | awk '{print $12}' " 
+  From month day to doy  -> "caltime date 2012 12 20 | awk '{print $7}'  "  
+  From doy to gps week   -> "caltime date 2012 231   | awk '{print $9,$10}'  "  
+  Read input from stdin  -> "awk '{print $1,$2,$3}' filename | caltime date  "  
+  Read input from stdin  -> "cat filename | caltime j2000 | awk '{print $12}' "   
   
 Reference:  
   
