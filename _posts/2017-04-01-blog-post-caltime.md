@@ -1,7 +1,7 @@
 ---
 title: 'Time convention program (GPST, JD, J2000, DOY)'
-date: 2020-08-03
-permalink: /posts/2020/08/caltime/
+date: 2017-04-01
+permalink: /posts/2017/04/caltime/
 tags:
   - C++
 ---
@@ -10,7 +10,7 @@ Time convertion ultility, convert input time system to all kinds of times. Valid
 
 Latest version
 ======
-2020-08-03: [Linux_binary_release_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/Edui1ZDqezVKhRfPh1b2rCIBc4XF9BE0BI8uQfWTMNi1Ew?e=bBVzpR)
+2017-04-01: [Linux_binary_release_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/Edui1ZDqezVKhRfPh1b2rCIBc4XF9BE0BI8uQfWTMNi1Ew?e=bBVzpR)
 
 
 Usages
@@ -30,10 +30,10 @@ Formated Output, same for all usages
 
 Examples usages:  
   
-  From month day to doy  -> caltime date 2012 12 20 | awk '{print $7}'  
-  From doy to gps week   -> caltime date 2012 231   | awk '{print $9,$10}'  
-  Read input from stdin  -> awk '{print $1,$2,$3}' filename | caltime date  
-  Read input from stdin  -> cat filename | caltime j2000 | awk '{print $12}'  
+  From month day to doy  -> "caltime date 2012 12 20 | awk '{print $7}'  "
+  From doy to gps week   -> "caltime date 2012 231   | awk '{print $9,$10}'  "
+  Read input from stdin  -> "awk '{print $1,$2,$3}' filename | caltime date  "
+  Read input from stdin  -> "cat filename | caltime j2000 | awk '{print $12}' " 
   
 Reference:  
   
@@ -42,4 +42,4 @@ Reference:
 
 Update logs
 ======
-2020-08-03: published  
+2017-04-01: published  
