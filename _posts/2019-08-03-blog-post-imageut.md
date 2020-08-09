@@ -21,12 +21,12 @@ Latest version
 
 Usages
 ======
-cut_image -> crop images by (minlat, maxlat, minlon, maxlon)
-oversample -> over- or downsample images by redefining the pixel spacing
-binary_scale -> scale images by multiplying a scale factor
-binary_wrap -> wrap images between a predefined threshold (-threshold, threshold)
-binary_minus -> minus two images
-int2float -> convert image with integer values to float values
+cut_image -> crop images by (minlat, maxlat, minlon, maxlon)   
+oversample -> over- or downsample images by redefining the pixel spacing   
+binary_scale -> scale images by multiplying a scale factor   
+binary_wrap -> wrap images between a predefined threshold (-threshold, threshold)   
+binary_minus -> minus two images   
+int2float -> convert image with integer values to float values   
 
 
 Run without arguments to see usages.  
