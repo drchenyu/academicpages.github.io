@@ -16,20 +16,33 @@ Latest version
 [oversample_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EZ3J7hFYndlBlN7laF67f-gBbKGnJSsk9nEXktXuYI72CQ?e=rudMnn)  
 [binary_scale_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EQ850CPiPNlBoWwQYHbL3CsB08FoYj14zgVMqlTOQ3Ge1Q?e=ZiIOhE)  
 [binary_wrap_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EXCHyScXaWRAmalZlKUCWPQBRCgD3c3yA-j1-8AuEgIg3Q?e=U4efBm)  
+[binary_minus_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EVM4D1XgOxBJj4dGzIIfRVUB19FjfaeANOQ8werQtmEUNg?e=P9TzGC)  
+[int2float_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/Ec4rN9CneAlBmVP8ESQio9kBkSgbhGMGTr3uFL3J9FWyRQ?e=t5CWPW)  
 
 Usages
 ======
-run without arguments to see usages.  
+cut_image -> crop images by (minlat, maxlat, minlon, maxlon)
+oversample -> over- or downsample images by redefining the pixel spacing
+binary_scale -> scale images by multiplying a scale factor
+binary_wrap -> wrap images between a predefined threshold (-threshold, threshold)
+binary_minus -> minus two images
+int2float -> convert image with integer values to float values
+
+
+Run without arguments to see usages.  
 A header.rsc file is needed for most of these programs which is a text file.  
 It should contain at least the following information: 
- 
+
+#################
 WIDTH   14400  
 FILE_LENGTH   10800  
 X_FIRST           18.0000000  
 Y_FIRST           43.0000000  
 X_STEP             0.000277770000000  
-Y_STEP            -0.000277770000000  
-  
+Y_STEP            -0.000277770000000     
+#################
+
+
 the width of the binary image  
 the length(FILE_LENGTH) of the binary image  
 the longitude of the up-left corner pixel of the binary image, in degree (X_FIRST)  
