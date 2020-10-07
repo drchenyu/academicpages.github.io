@@ -7,7 +7,7 @@ tags:
   - 
 ---
 
-This is a InSAR time series analysis tool based on SBAS, including phase closure check (unwrapping error), orbit rampo removal, DEM error estimation and temproal constraint.  
+This is a InSAR time series analysis tool based on SBAS, including phase closure check (unwrapping error), orbital ramp removal, DEM error estimation and temproal constraint.  
 Written with C++. 
 
 Latest version
