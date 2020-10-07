@@ -7,7 +7,7 @@ tags:
   - 
 ---
 
-This is a InSAR time series analysis tool based on simple stacking with robust least squre (to delete outliers), including phase closure check (unwrapping error) and orbit rampo removal.  
+This is a InSAR time series analysis tool based on simple stacking with robust least squre (to delete outliers), including phase closure check (unwrapping error) and orbital ramp removal.  
 
 Written with C++. 
 
