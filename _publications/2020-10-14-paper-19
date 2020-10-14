@@ -1,0 +1,17 @@
+---
+title: "Optimizing Global Navigation Satellite Systems network real-time kinematic infrastructure for homogeneous positioning performance from the perspective of tropospheric effects"
+collection: publications
+permalink: /publication/2020-10-14-paper-19
+excerpt: 'Yu, C., Penna, N. T., &amp; Li, Z.'
+date: 2020-10-14
+venue: 'Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences'
+---
+Yu, C.,  Li, Z., & Penna, N. T.
+
+Abstract
+=====
+Real-time centimetre-level precise positioning from Global Navigation Satellite Systems (GNSS) is critical for activities including landslide, glacier and coastal erosion monitoring, flood modelling, precision agriculture, intelligent transport systems, autonomous vehicles and the Internet of Things. This may be achieved via the real-time kinematic (RTK) GNSS approach, which uses a single receiver and a network of continuously operating GNSS reference stations (CORS). However, existing CORS networks have often been established simply by attempting regular spacing or in clusters around cities, with little consideration of weather, climate and topography effects, which influence the GNSS tropospheric delay, a substantial GNSS positional error and which prevents homogeneous RTK accuracy attainment. Here, we develop a framework towards optimizing the design of CORS ground infrastructure, such that tropospheric delay errors reduce to 1.5 mm worth of precipitable water vapour (PWV) globally. We obtain average optimal station spacings of 52 km in local summer and 70 km in local winter, inversely related to the atmospheric PWV variation, with denser networks typically required in the tropics and in mountainous areas. We also consider local CORS network infrastructure case studies, showing how after network modification interpolated PWV errors can be reduced from around 2.7 to 1.4 mm. 
+
+[PDF available](/files/paper19.pdf)  
+
+[Visit publication website](https://doi.org/10.1098/rspa.2020.0248)
