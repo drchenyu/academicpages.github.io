@@ -13,7 +13,7 @@ Written with C++.
 
 Latest version
 ======
-2020-10-07: [Linux binary_release_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/Ebdl9HOj23dPoeQI7eOI_-kBsj90fkRrfNLFGNqrShNUwA?e=WymLBA)
+2020-10-16: [Linux binary_release_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EY47lGc4u_VPjjBIWJxvt7sBzOAee0K41FhHpWerzKNLpA?e=dOqx0q)
 
 
 Usages
@@ -53,7 +53,15 @@ Parameters explained
 - if_remove_orbit
   - 0: no orbital ramp removal; 1: removel orbital ramp and write out new files  
 - orbit_quad_fit_sampling
-  - resampling factor when estimating orbit quadratic polynomial  
+  - resampling factor when estimating orbit quadratic polynomial 
+- if_remove_hgt 
+  - if remove elevation dependent signals, which is phase=a+b\*height
+- hgt_block_size 
+  - window size to estimate elevation dependent signals, in km
+- demfile 
+  - a dem file which must at least cover the whole ifg 
+- demfile_header 
+  - a header file for the demfile, the same as rsc above. 
 - if_check_loop_closure
   - 0: no loop closure; 1: check loop closure  
 - loop_misclosure_threshod
@@ -69,4 +77,6 @@ Parameters explained
 
 Update logs
 ======
+2020-10-16： add elevation dependent signal removal.
+
 2020-10-07: published  
