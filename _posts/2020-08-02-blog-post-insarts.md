@@ -11,8 +11,8 @@ This is a InSAR time series analysis tool based on SBAS, including phase closure
 Written with C++. 
 
 Latest version
-======
-2020-08-06: [Linux binary_release_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EZfON_nQhfBJpE8GgL46BdsBWysxhcbDZukgczkBuooRoA?e=AQjv0A)
+====== 
+2020-10-18: [Linux binary_release_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EShi0F5FpAFIoh9SvKAF9SQBRMmctoMP_DB1T7HZ3BP_0w?e=JEQhGd)
 
 
 Usages
@@ -78,6 +78,8 @@ Parameters explained
 
 Update logs
 ======
+2020-10-18: add elevation dependent signal removal 
+ 
 2020-08-06: read reference points from a windowed area. 
 
 2020-08-02: add logarithmic temporal constraint (a+b*log(t-t0))  
