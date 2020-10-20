@@ -13,7 +13,7 @@ Written with C++.
 
 Latest version
 ======
-2020-10-16: [Linux binary_release_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EdBDNMhyNH5PnUdWoUpdzjUBHpXysncxLVCYgdZhWwQkeg?e=gMsp37)
+2020-10-16: [Linux binary_release_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EVy3B1weOf5Jgjpi7x4sc_kBr9loEK91KWrAdueb78DhDA?e=9bqo2U)
 
 
 Usages
@@ -44,8 +44,6 @@ Parameters explained
   - window size to extract reference point value  
 - maxcap 
   - maximumn capacity of memory (pixel size), over which the ifg will be divided;  
-- minnum 
-  - minimum number of ifg required to perform stacking 
 - sigma_factor 
   - phase value out of range (median-std\*sigma_factor, median+std\*sigma_factor) will be deleted
 
