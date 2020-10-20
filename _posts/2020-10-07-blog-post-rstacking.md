@@ -13,7 +13,7 @@ Written with C++.
 
 Latest version
 ======
-2020-10-16: [Linux binary_release_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EVy3B1weOf5Jgjpi7x4sc_kBr9loEK91KWrAdueb78DhDA?e=9bqo2U)
+2020-10-16: [Linux binary_release_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EWlg4VhfESxNhU9tKnmjQCkBZYnVpFnxO9cvOjSsTx14WA?e=n0Bx94)
 
 
 Usages
