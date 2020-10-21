@@ -10,7 +10,7 @@ redirect_from:
   - /about.html
 ---
 
-:heavy_exclamation_mark: ***Important notice:*** Due to a cyber attack on our university's network (https://www.ncl.ac.uk/itservice/latest-news/faqs/), GACOS is currently offline. It may take several weeks to fix this problem. Sorry for the disruption. If you have any requests during this time, please fill in this [form](https://newcastle-my.sharepoint.com/:w:/g/personal/nyc40_newcastle_ac_uk/Ea4FPDsfReROuhUkK-8rjOcBqNqit9azzvHdfS1CPoNT9A?e=Ruve0m) and return to (chen.yu@newcastle.ac.uk).
+>***Important notice:*** Due to a cyber attack on our university's network (https://www.ncl.ac.uk/itservice/latest-news/faqs/), GACOS is currently offline. It may take several >weeks to fix this problem. Sorry for the disruption. If you have any requests during this time, please fill in this [form](https://newcastle->my.sharepoint.com/:w:/g/personal/nyc40_newcastle_ac_uk/Ea4FPDsfReROuhUkK-8rjOcBqNqit9azzvHdfS1CPoNT9A?e=Ruve0m) and return to (chen.yu@newcastle.ac.uk).
 
 I am a Research Associate currently in the School of Engineering at Newcastle University. I major in the research of monitoring and interpreting geo-hazards such as earthquakes, volcanoes, landslides, and ground subsidence using a variety of Earth Observations (EO). My main objective is to develop a geo-hazard Early Warning System (EWS) with the capacity of early-stage hazard detection and pre-warning, risk assessment of the hazard affected area and rapid responding to catastrophic events.   
 
