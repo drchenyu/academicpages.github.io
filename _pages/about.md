@@ -10,7 +10,7 @@ redirect_from:
   - /about.html
 ---
 
->***Important notice:*** The new GACOS website has been released. Please use the following link (http://www.gacos.net/) to have a try. Any feedback is welcome.
+>***Important notice:*** The new GACOS website has been released. Please use the following [link](http://www.gacos.net/) (http://www.gacos.net/) to have a try. Any feedback is welcome.
 
 I am a Research Associate currently in the School of Engineering at Newcastle University. I major in the research of monitoring and interpreting geo-hazards such as earthquakes, volcanoes, landslides, and ground subsidence using a variety of Earth Observations (EO). My main objective is to develop a geo-hazard Early Warning System (EWS) with the capacity of early-stage hazard detection and pre-warning, risk assessment of the hazard affected area and rapid responding to catastrophic events.   
 
