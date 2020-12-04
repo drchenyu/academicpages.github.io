@@ -12,12 +12,12 @@ This is a collection of binary image editing programs, including cutting, oversa
 Latest version
 ======
 2020-08-03:  
-[cut_image_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EfSBg52wfItJv5SvJcGmL6IB1enSLMz4bdVWyDMvTvkw-Q?e=BzygbX)   
-[oversample_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EZ3J7hFYndlBlN7laF67f-gBbKGnJSsk9nEXktXuYI72CQ?e=rudMnn)  
-[binary_scale_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EQ850CPiPNlBoWwQYHbL3CsB08FoYj14zgVMqlTOQ3Ge1Q?e=ZiIOhE)  
-[binary_wrap_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EXCHyScXaWRAmalZlKUCWPQBRCgD3c3yA-j1-8AuEgIg3Q?e=U4efBm)  
-[binary_minus_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EVM4D1XgOxBJj4dGzIIfRVUB19FjfaeANOQ8werQtmEUNg?e=P9TzGC)  
-[int2float_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/Ec4rN9CneAlBmVP8ESQio9kBkSgbhGMGTr3uFL3J9FWyRQ?e=t5CWPW)  
+[cut_image_download](ftp://www.gacos.net/pub/share/software/cut_image.zip)   
+[oversample_download](ftp://www.gacos.net/pub/share/software/oversample.zip)  
+[binary_scale_download](ftp://www.gacos.net/pub/share/software/binary_scale.zip)  
+[binary_wrap_download](ftp://www.gacos.net/pub/share/software/binary_wrap.zip)  
+[binary_minus_download](ftp://www.gacos.net/pub/share/software/binary_minus.zip)  
+[int2float_download](ftp://www.gacos.net/pub/share/software/int2float.zip)  
 
 Usages
 ======
