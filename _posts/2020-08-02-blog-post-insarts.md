@@ -12,7 +12,7 @@ Written with C++.
 
 Latest version
 ====== 
-2020-10-18: [Linux binary_release_download](https://newcastle-my.sharepoint.com/:u:/g/personal/nyc40_newcastle_ac_uk/EdlAvG-SqJdMhQ22g6ZDg4UBRN8VhR7FMzTh78Mircijfw?e=skRLgE)
+2020-10-18: [Linux binary_release_download](ftp://www.gacos.net/pub/share/software/insarts_20201024.zip)
 
 
 Usages
