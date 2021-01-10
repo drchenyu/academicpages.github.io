@@ -15,19 +15,19 @@ Latest version
 
 Capabilities
 ======
-1 Orbital ramp removel (interferogram by interferotram). 
+- Orbital ramp removel (interferogram by interferotram). 
 
-2 Elevation dependent signal removal (interferogram by interferotram). 
+- Elevation dependent signal removal (interferogram by interferotram). 
 
-3 Looking for a reference point. 
+- Looking for a reference point. 
 
-4 Unwrapping error check by phase closures. 
+- Unwrapping error check by phase closures. 
 
-5 Displacement time series inversion, with or without a linear/logarithmic temporal model. 
+- Displacement time series inversion, with or without a linear/logarithmic temporal model. 
 
-6 Mean linear velocity estimation by stacking.  
+- Mean linear velocity estimation by stacking.  
 
-7 Spatial and/or temporal filtering. 
+- Spatial and/or temporal filtering. 
 
 Usages
 ======
