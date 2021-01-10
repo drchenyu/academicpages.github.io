@@ -13,6 +13,15 @@ Latest version
 ====== 
 2021-01-06: [Linux binary_release_download](ftp://www.gacos.net/pub/share/software/insarts_20210106.zip)
 
+Capabilities
+======
+1 Orbital ramp removel (interferogram by interferotram).
+2 Elevation dependent signal removal (interferogram by interferotram).
+3 Looking for a reference point.
+4 Unwrapping error check by phase closures.
+5 Displacement time series inversion, with or without a linear/logarithmic temporal model.
+6 Mean linear velocity estimation by stacking. 
+7 Spatial and/or temporal filtering.
 
 Usages
 ======
