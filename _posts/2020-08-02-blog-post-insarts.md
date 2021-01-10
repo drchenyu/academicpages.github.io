@@ -7,77 +7,53 @@ tags:
   - 
 ---
 
-This is a InSAR time series analysis tool based on SBAS, including phase closure check (unwrapping error), orbital ramp removal, DEM error estimation and temproal constraint.  
-Written with C++. 
+The program is written in C++ enabling multiprocessing through OPENMP. The time series inversion is calculated by a general Gauss-Markov linear model (e.g., weighted least square) by LAPACK and then filtered in the frequency domain by FFTW. The estimation is run on a pixel-by-pixel basis and each pixel can be estimated in parallel, therefore it is expected to run fast when OPENMP is enabled.  
 
 Latest version
 ====== 
-2020-10-18: [Linux binary_release_download](ftp://www.gacos.net/pub/share/software/insarts_20201024.zip)
+2021-01-06: [Linux binary_release_download](ftp://www.gacos.net/pub/share/software/insarts_20210106.zip)
 
 
 Usages
 ======
-On Linux, simply run:  
-./insarts cfg  
+1 Tips to run 
+1.1 To run the program, simply type: 
+./insarts cfg 
+The unit of the output is the same as the input. 
+
+1.2 The interferograms should be stored in a ‘little-endian’ float (4 byte) binary file with the row major order. The filename of interferograms should contain at least two dates (first and second date) and in the format of ‘*YYYYMMDD*YYYYMMDD*’ (separate the two dates with any character(s)). All the input interferograms should be in the same size.
+
+1.3 There are several swithers in the configuration file (highlighted below in green) with which you can turn on/off the correspondent section. 
+
+1.4 In order to find satisfied filter strength (which is sometimes tricky), you can turn off if_remove_orbit, if_remove_eds, if_check_loop_closure and if_inverse_time_series, and then run the program several times with different filtering parameters (the program will load the original time series output of the time series inversion and overwrite any existing filtered results). 
+
+2 The outputs
+
+2.1 Cumulative displacement maps in the same size as the input interferograms. It is named as ‘culmap-date1-date2.disp’ which is the cumulative displacement from date2 to date1.
+
+2.2 ‘linear_mean_velocity’ which is the mean annual displacement (cumulative displacement divided by the time interval).
+
+2.3 ‘least_square_sigma’ which is the mean square root of observation residuals.
+
+2.4 ‘linear_stacking_mean_velocity’, ‘linear_stacking_mean_velocity_residual’ and ‘linear_stacking_mean_velocity_sigma’ when ‘if_stackinbg’ is turned on. These files correspond to the equations in Section 4.3. 
+
+2.5 Filtered cumulative displacement maps named as ‘culmap-date1-date2.disp.filtered’. 
+
+2.6 A phase loop closure mask when ‘if_check_loop_closure’ is turned on. It is in the same size as the input interferograms. (0.0 -> no mask, 1.0-> masked). A phase_closure_std map and a phase_closure_failed_ratio map. 
+
+2.7 filelist_used, filelist_deleted and filelist_statistics, if some ifgs were deleted during the processing.
+
+2.8 baseline_dependent_dem_error map when ‘if_est_hgt’ is turned on. 
+
 
 Parameters explained
 ======
-1. set filename and foldername  
-- resultfolder
-  - !!must be created before running!! all results and intermedie files will be stored in this folder  
-- headerfile
-  - an rsc style header file, must contain "WIDTH,FILE_LENGTH,X_FIRST,Y_FIRST,X_STEP,Y_STEP"  
-- filelist
-  - a filelist file containing all the filenames of ifgs. !!do not contain pathname, only filenames are allowed!!  
-- datafolder
-  - path where ifgs are stored  
-- baselines
-  - a baseline text file define the baseline of each ifg. !!two column text file, first column: filename, second column baseline in meter!!  
-
-2. set predefined parameters  
-- ref_row
-  - row number, set to 0 to select automatically   
-- ref_col
-  - col number, set to 0 to select automatically  
-- ref_window
-  - window size to extract reference point value  
-- maxcap
-  - maximumn capacity of memory (pixel size), over which the ifg will be divided;  
-- wavelength
-  - in meter  
-- incidence
-  - in degree  
-- orbit_altitude
-  - in meter  
-
-3. set processing parameters  
-- if_est_hgt
-  - 0: no DEM error is estiamted; 1: to estimate the DEM error, a baseline file is needed then  
-- temporal_constraint
-  - 0: no constraint; 1: linear; 2: a+b*ln(T-T0);  
-- temporal_strength
-  - only valid when temporal_constraint=1  
-- simple_log_origin
-  - origin of simple_log_function T0 (mainshock date),only valid when temporal_constraint=2  
-- if_remove_orbit
-  - 0: no orbital ramp removal; 1: removel orbital ramp and write out new files  
-- orbit_quad_fit_sampling
-  - resampling factor when estimating orbit quadratic polynomial  
-- if_check_loop_closure
-  - 0: no loop closure; 1: check loop closure  
-- loop_misclosure_threshod
-  - threshod to define a failed loop closure  
-- loop_misclosure_ratio_threshod
-  - ratio of failed loops among all possible loops, over which there will be a mask  
-- minimun_loop_num
-  - only check loop closure when there are at least minimun_loop_num loops exist  
-- if_allow_unlooped_pixel
-  - 0:exlcude those pixels; 1: alow those pixels, unlooped means loop number < minimun_loop_num   
-- minimum_temporal_ifg_ratio
-  - temporal_ifg_ratio=(valid_ifg_number)/(total_ifg_number), less than which there will be a mask  
+A user manual is included in the zip file. 
 
 Update logs
 ======
+2021-01-06: New version released with a detailed user manual. 
+
 2020-10-18: add elevation dependent signal removal 
  
 2020-08-06: read reference points from a windowed area. 
