@@ -32,33 +32,35 @@ Capabilities
 Usages
 ======
 - Tips to run 
-  - To run the program, simply type: 
+  - To run the program, simply type:  
+  
 ./insarts cfg 
+
 The unit of the output is the same as the input. 
 
-1.2 The interferograms should be stored in a ‘little-endian’ float (4 byte) binary file with the row major order. The filename of interferograms should contain at least two dates (first and second date) and in the format of ‘*YYYYMMDD*YYYYMMDD*’ (separate the two dates with any character(s)). All the input interferograms should be in the same size.
+  - The interferograms should be stored in a ‘little-endian’ float (4 byte) binary file with the row major order. The filename of interferograms should contain at least two dates (first and second date) and in the format of ‘*YYYYMMDD*YYYYMMDD*’ (separate the two dates with any character(s)). All the input interferograms should be in the same size.
 
-1.3 There are several swithers in the configuration file (highlighted below in green) with which you can turn on/off the correspondent section. 
+  - There are several swithers in the configuration file (highlighted below in green) with which you can turn on/off the correspondent section. 
 
-1.4 In order to find satisfied filter strength (which is sometimes tricky), you can turn off if_remove_orbit, if_remove_eds, if_check_loop_closure and if_inverse_time_series, and then run the program several times with different filtering parameters (the program will load the original time series output of the time series inversion and overwrite any existing filtered results). 
+  - In order to find satisfied filter strength (which is sometimes tricky), you can turn off if_remove_orbit, if_remove_eds, if_check_loop_closure and if_inverse_time_series, and then run the program several times with different filtering parameters (the program will load the original time series output of the time series inversion and overwrite any existing filtered results). 
 
-2 The outputs
+- The outputs
 
-2.1 Cumulative displacement maps in the same size as the input interferograms. It is named as ‘culmap-date1-date2.disp’ which is the cumulative displacement from date2 to date1.
+  - Cumulative displacement maps in the same size as the input interferograms. It is named as ‘culmap-date1-date2.disp’ which is the cumulative displacement from date2 to date1.
 
-2.2 ‘linear_mean_velocity’ which is the mean annual displacement (cumulative displacement divided by the time interval).
+  - ‘linear_mean_velocity’ which is the mean annual displacement (cumulative displacement divided by the time interval).
 
-2.3 ‘least_square_sigma’ which is the mean square root of observation residuals.
+  - ‘least_square_sigma’ which is the mean square root of observation residuals.
 
-2.4 ‘linear_stacking_mean_velocity’, ‘linear_stacking_mean_velocity_residual’ and ‘linear_stacking_mean_velocity_sigma’ when ‘if_stackinbg’ is turned on. These files correspond to the equations in Section 4.3. 
+  - ‘linear_stacking_mean_velocity’, ‘linear_stacking_mean_velocity_residual’ and ‘linear_stacking_mean_velocity_sigma’ when ‘if_stackinbg’ is turned on. These files correspond to the equations in Section 4.3. 
 
-2.5 Filtered cumulative displacement maps named as ‘culmap-date1-date2.disp.filtered’. 
+  - Filtered cumulative displacement maps named as ‘culmap-date1-date2.disp.filtered’. 
 
-2.6 A phase loop closure mask when ‘if_check_loop_closure’ is turned on. It is in the same size as the input interferograms. (0.0 -> no mask, 1.0-> masked). A phase_closure_std map and a phase_closure_failed_ratio map. 
+  - A phase loop closure mask when ‘if_check_loop_closure’ is turned on. It is in the same size as the input interferograms. (0.0 -> no mask, 1.0-> masked). A phase_closure_std map and a phase_closure_failed_ratio map. 
 
-2.7 filelist_used, filelist_deleted and filelist_statistics, if some ifgs were deleted during the processing.
+  - filelist_used, filelist_deleted and filelist_statistics, if some ifgs were deleted during the processing.
 
-2.8 baseline_dependent_dem_error map when ‘if_est_hgt’ is turned on. 
+  - baseline_dependent_dem_error map when ‘if_est_hgt’ is turned on. 
 
 
 Parameters explained
