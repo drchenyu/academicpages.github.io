@@ -31,8 +31,8 @@ Capabilities
 
 Usages
 ======
-1 Tips to run 
-1.1 To run the program, simply type: 
+- Tips to run 
+  - To run the program, simply type: 
 ./insarts cfg 
 The unit of the output is the same as the input. 
 
