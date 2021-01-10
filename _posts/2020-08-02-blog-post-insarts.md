@@ -33,10 +33,10 @@ Usages
 ======
 - Tips to run 
   - To run the program, simply type:  
-  
-./insarts cfg 
 
-The unit of the output is the same as the input. 
+    >./insarts cfg 
+
+    - The unit of the output is the same as the input. 
 
   - The interferograms should be stored in a ‘little-endian’ float (4 byte) binary file with the row major order. The filename of interferograms should contain at least two dates (first and second date) and in the format of ‘*YYYYMMDD*YYYYMMDD*’ (separate the two dates with any character(s)). All the input interferograms should be in the same size.
 
