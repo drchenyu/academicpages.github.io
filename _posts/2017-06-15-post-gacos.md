@@ -31,9 +31,9 @@ GACOS tropospheric delay maps are given in a grid binary format (4-byte float li
 It is planned soon to also provide tropospheric delay maps from the integration of the ECMWF weather model and GPS-estimated tropospheric delay products from the Nevada Geodetic Laboratory.
 
 Whenever using the GACOS products, please cite the following references:
-- Yu, C., Li, Z., Penna, N. T., & Crippa, P. (2018). Generic atmospheric correction model for Interferometric Synthetic Aperture Radar observations. Journal of Geophysical Research: Solid Earth, 123. https://doi.org/10.1029/2017JB015305. [link]
-- Yu, C., Li, Z., and Penna, N. T. (2018), Interferometric synthetic aperture radar atmospheric correction using a GPS-based iterative tropospheric decomposition model, Re­mote Sens. En­v­i­ron., doi:10.​1016/​j.​rse.​2017.​10.​038. [link]
-- Yu, C., Penna, N. T., and Li, Z. (2017), Generation of real-time mode high-resolution water vapor fields from GPS observations, J. Geophys. Res. Atmos., 122, 2008–2025, doi:10.1002/2016JD025753. [Link]
+- Yu, C., Li, Z., Penna, N. T., & Crippa, P. (2018). Generic atmospheric correction model for Interferometric Synthetic Aperture Radar observations. Journal of Geophysical Research: Solid Earth, 123. https://doi.org/10.1029/2017JB015305. 
+- Yu, C., Li, Z., and Penna, N. T. (2018), Interferometric synthetic aperture radar atmospheric correction using a GPS-based iterative tropospheric decomposition model, Re­mote Sens. En­v­i­ron., doi:10.​1016/​j.​rse.​2017.​10.​038. 
+- Yu, C., Penna, N. T., and Li, Z. (2017), Generation of real-time mode high-resolution water vapor fields from GPS observations, J. Geophys. Res. Atmos., 122, 2008–2025, doi:10.1002/2016JD025753. 
 
 Acknowledgements:
 GACOS is supported by the UK NERC through the Centre for the Observation and Modelling of Earthquakes, Volcanoes and Tectonics (COMET, ref.: come30001) and the LICS project (ref. NE/K010794/1), and the ESA-MOST DRAGON-4 project (ref. 32244). We acknowledge European Centre for Medium-Range Weather Forecasts (ECMWF) for their operational high resolution tropospheric products. We also acknowledge Professor Geoffrey Blewitt and his team at Nevada Geodetic Laboratory, University of Nevada, Reno for sharing their GPS tropospheric delay products.
