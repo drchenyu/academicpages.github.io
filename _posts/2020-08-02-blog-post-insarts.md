@@ -11,7 +11,7 @@ The program is written in C++ enabling multiprocessing through OPENMP. The time 
 
 Latest version
 ====== 
-2021-01-06: [Linux binary_release_download](ftp://www.gacos.net/pub/share/software/insarts_20210106.zip)
+2021-01-28: [Linux binary_release_download](ftp://www.gacos.net/pub/share/software/insarts_20210128.zip)
 
 Capabilities
 ======
@@ -69,6 +69,10 @@ A user manual is included in the zip file.
 
 Update logs
 ======
+2021-01-28: LAPACK removed as it goes to endless loop occasionally on some machine. 
+
+2021-01-28: New reference point select method implemented, the default method now =2.
+
 2021-01-06: New version released with a detailed user manual. 
 
 2020-10-18: add elevation dependent signal removal 
