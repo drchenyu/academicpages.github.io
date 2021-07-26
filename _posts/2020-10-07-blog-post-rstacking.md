@@ -13,7 +13,7 @@ Written with C++.
 
 Latest version
 ======
-2020-10-16: [Linux binary_release_download](ftp://www.gacos.net/pub/share/software/rstacking_20201024.zip)
+2020-10-16: [Linux binary_release_download](http://www.gacos.net/pub/share/software/rstacking_20201024.zip)
 
 
 Usages
