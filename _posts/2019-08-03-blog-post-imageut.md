@@ -12,12 +12,12 @@ This is a collection of binary image editing programs, including cutting, oversa
 Latest version
 ======
 2020-08-03:  
-[cut_image_download](ftp://www.gacos.net/pub/share/software/cut_image.zip)   
-[oversample_download](ftp://www.gacos.net/pub/share/software/oversample.zip)  
-[binary_scale_download](ftp://www.gacos.net/pub/share/software/binary_scale.zip)  
-[binary_wrap_download](ftp://www.gacos.net/pub/share/software/binary_wrap.zip)  
-[binary_minus_download](ftp://www.gacos.net/pub/share/software/binary_minus.zip)  
-[int2float_download](ftp://www.gacos.net/pub/share/software/int2float.zip)  
+[cut_image_download](http://www.gacos.net/pub/share/software/cut_image.zip)   
+[oversample_download](http://www.gacos.net/pub/share/software/oversample.zip)  
+[binary_scale_download](http://www.gacos.net/pub/share/software/binary_scale.zip)  
+[binary_wrap_download](http://www.gacos.net/pub/share/software/binary_wrap.zip)  
+[binary_minus_download](http://www.gacos.net/pub/share/software/binary_minus.zip)  
+[int2float_download](http://www.gacos.net/pub/share/software/int2float.zip)  
 
 Usages
 ======
