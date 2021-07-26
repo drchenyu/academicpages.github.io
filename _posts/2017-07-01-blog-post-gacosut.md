@@ -13,7 +13,7 @@ This is a collection of programs/scripts to apply and to check the GACOS atmosph
 Latest version
 ======
 2017-07-01:  
-[applygacos.py download](ftp://www.gacos.net/pub/share/software/applygacos.zip)   
+[applygacos.py download](http://www.gacos.net/pub/share/software/applygacos.zip)   
   
 If you need to downsample or oversample your interferograms or the GACOS atmopsheric corrention, please use:    
 [A collection of binary image editing programs](https://chenyublog.netlify.app/posts/2020/08/imageut/)
