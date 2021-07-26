@@ -10,7 +10,7 @@ Time convertion ultility, convert input time system to all kinds of times. Valid
 
 Latest version
 ======
-2017-04-01: [Linux_binary_release_download](ftp://www.gacos.net/pub/share/software/caltime.zip)
+2017-04-01: [Linux_binary_release_download](http://www.gacos.net/pub/share/software/caltime.zip)
 
 
 Usages
