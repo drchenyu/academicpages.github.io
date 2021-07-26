@@ -12,7 +12,7 @@ This is a InSAR time series analysis tool based on SBAS, including phase closure
 
 Latest version
 ======
-[Linux binary](ftp://www.gacos.net/pub/share/software/insarts_20201024.zip)
+[Linux binary](http://www.gacos.net/pub/share/software/insarts_20201024.zip)
 
 
 Usages
