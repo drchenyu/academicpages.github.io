@@ -12,7 +12,7 @@ redirect_from:
 
 >***Important notice:*** The new GACOS website has been released. Please use the following [link](http://www.gacos.net/) (http://www.gacos.net/) to have a try. Any feedback is welcome.
 
-I am a Professor of geodesy at the College of Geological Engineering and Geomatics, Chang'an University, Xi'an, China. I major in the research of monitoring and interpreting geo-hazards such as earthquakes, volcanoes, landslides, and ground subsidence using a variety of Earth Observations (EO). My main objective is to develop a geo-hazard Early Warning System (EWS) with the capacity of early-stage hazard detection and pre-warning, risk assessment of the hazard affected area and rapid responding to catastrophic events.   
+I am a researcher at the College of Geological Engineering and Geomatics, Chang'an University, Xi'an, China. I major in the research of monitoring and interpreting geo-hazards such as earthquakes, volcanoes, landslides, and ground subsidence using a variety of Earth Observations (EO). My main objective is to develop a geo-hazard Early Warning System (EWS) with the capacity of early-stage hazard detection and pre-warning, risk assessment of the hazard affected area and rapid responding to catastrophic events.   
 
 Research interests 
 ======
