@@ -11,7 +11,7 @@ The program is written in C++ enabling multiprocessing through OPENMP. The time 
 
 Latest version
 ====== 
-2021-01-28: [Linux binary_release_download](http://www.gacos.net/pub/share/software/insarts_20230410.zip)
+2023-06-21: [Linux binary_release_download](http://www.gacos.net/pub/share/software/insarts_20230621.zip)
 
 Capabilities
 ======
